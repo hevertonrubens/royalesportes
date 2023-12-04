@@ -1,0 +1,324 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/istockphoto-178497225-170667a.jpg');
+    background-color: darkgreen;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+}
+
+body.sobre-page {
+    background-color: rgb(0, 0, 0);
+    background-image: url(img/beautiful-football-wallpaper_041157178_96.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+    margin: 0; 
+}
+
+body.chuteiras-page {
+    background-color: rgb(255, 255, 255);
+    background-image: url(img/kisspng-real-madrid-c-f-football-player-clip-art-footballeur-5b2ce99c0bea88.3865658615296700440488.png);
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+    margin: 0; 
+}
+
+body.camisas-page {
+    background-color: rgb(48, 48, 48);
+    background-image: url(img/124777-vetores-livres-da-camisa-do-futebol-vetor.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+    margin: 0; 
+}
+
+body.faq-page {
+    background-color: rgb(255, 255, 255);
+    background-image: url(img/quanto_mede_a_trave_de_futebol_24020_orig.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+    margin: 0; 
+}
+
+body.chuteiras-page .navbar {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+body.sobre-page .navbar {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+body.camisas-page .navbar {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+body.faq-page .navbar {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+body.sobre-page .navbar-nav .nav-link {
+    color: white !important;
+}
+
+body.sobre-page .navbar-brand {
+    color: rgb(255, 255, 255) !important;
+}
+
+body.chuteiras-page .navbar-nav .nav-link {
+    color: black !important;
+}
+
+body.chuteiras-page .navbar-brand {
+    color: black !important;
+}
+
+body.camisas-page .navbar-nav .nav-link {
+    color: white !important;
+}
+
+body.camisas-page .navbar-brand {
+    color: rgb(255, 255, 255) !important;
+}
+
+body.faq-page .navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+
+body.faq-page .navbar-brand {
+    color: rgb(255, 255, 255) !important;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-top: 250px; 
+}
+
+.welcome-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.faq-text h1 {
+    text-align: center;
+    margin-top: 100px; 
+    font-size: 3em;
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 15px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.main-card {
+    flex: 1;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.side-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.521);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-width: 400px;
+    margin: 0 auto;
+    color: #333;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%; 
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.col-md-4 {
+    margin-bottom: 50px; 
+}
+
+.button-shop {
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+
+.green-card, .blue-card {
+    flex: 1;
+    max-width: 300px;
+}
+
+.developer-image {
+    width: 100%; 
+    max-width: 150px; 
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+}
+
+.proprietario-image {
+    width: 100%; 
+    max-width: 150px; 
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    font-size: 16px;
+}
+
+input, textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+button {
+    margin-top: 10px;
+}
+
+.footer-sobre {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer-home {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.footer-chuteiras {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.footer-camisas {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-faq {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
